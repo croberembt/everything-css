@@ -1,0 +1,39 @@
+.flexbox .box {
+  font-size: 50px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box; 
+}
+
+.flexbox .box-1 {
+  background-color: red; 
+}
+
+.flexbox .box-2 {
+  background-color: orange; 
+}
+
+.flexbox .box-3 {
+  background-color: rgb(214, 201, 19); 
+}
+
+.flexbox .box-4 {
+  background-color: green; 
+}
+
+.flexbox .box-5 {
+  background-color: blue; 
+}
+
+.flexbox .box-6 {
+  background-color: indigo; 
+}
+
+.flexbox .box-7 {
+  background-color: violet; 
+}
+
+.flexbox .box-8 {
+  background-color: cyan; 
+}
