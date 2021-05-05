@@ -4,7 +4,7 @@ import './Flexbox.css';
 const Flexbox = () => {
   return (
     <div className='flexbox'>
-      <div className='example-1'>
+      <div className='box-container'>
         <div className='box box-1'>
           1
         </div>
@@ -28,6 +28,9 @@ const Flexbox = () => {
         </div>
         <div className='box box-8'>
           8
+        </div>
+        <div className='box box-9'>
+          9
         </div>
       </div>
     </div>

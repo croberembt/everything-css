@@ -1,9 +1,11 @@
 .flexbox .box {
-  font-size: 50px;
+  font-size: 5rem;
   color: white;
-  padding: 20px;
+  padding: 2rem;
   text-align: center;
   box-sizing: border-box; 
+  background-color: black; 
+  width: 33.333333%;
 }
 
 .flexbox .box-1 {
@@ -27,13 +29,26 @@
 }
 
 .flexbox .box-6 {
-  background-color: indigo; 
+  background-color: purple; 
 }
 
 .flexbox .box-7 {
-  background-color: violet; 
+  background-color: rgb(156, 100, 197);
 }
 
 .flexbox .box-8 {
+  background-color: violet; 
+}
+
+.flexbox .box-9 {
   background-color: cyan; 
+}
+
+.flexbox .box-container {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  display: flex;
+  border: .5rem solid black; 
+  background-color: black;
+  height: 80vh;
 }
