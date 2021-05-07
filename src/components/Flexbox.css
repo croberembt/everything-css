@@ -1,3 +1,13 @@
+.flexbox .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  min-height: 100vh;
+}
+
 .flexbox .box {
   display: flex;
   font-size: 5rem;
@@ -7,9 +17,14 @@
   align-items: center;
   text-align: center;
   box-sizing: border-box; 
-  background-color: black; 
-  width: 300px;
+  width: 40%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   /* height: 40vh; */
+}
+
+.flexbox .box:nth-child(odd) {
+  margin-right: 2rem;
 }
 
 .flexbox .box-1 {
@@ -46,16 +61,4 @@
 
 .flexbox .box-9 {
   background-color: cyan; 
-}
-
-.flexbox .box-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: space-around;
-  border: .5rem solid black; 
-  background-color: black;
-  height: 80vh;
 }
