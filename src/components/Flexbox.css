@@ -1,31 +1,34 @@
 .flexbox .box-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
-  min-height: 100vh;
+  /* background-color: black; */
+  /* min-height: 100vh; */
+  /* width: 50rem; */
+  border: solid 1rem black;
 }
 
 .flexbox .box {
   display: flex;
-  font-size: 5rem;
-  color: white;
-  padding: 2rem;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: center; 
+  /* font-size: 10rem; */
+  padding: 2rem;
   box-sizing: border-box; 
-  width: 40%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  /* height: 40vh; */
+  width: 100rem;
+  /* margin-top: 2rem;
+  margin-bottom: 2rem; */
 }
 
-.flexbox .box:nth-child(odd) {
+/* .flexbox .box:nth-child(odd) {
   margin-right: 2rem;
-}
+} */
+
+/* .flexbox .text {
+  max-width: 90%;
+} */
 
 .flexbox .box-1 {
   background-color: red; 

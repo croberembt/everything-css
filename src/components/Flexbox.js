@@ -6,31 +6,31 @@ const Flexbox = () => {
     <div className='flexbox'>
       <div className='box-container'>
         <div className='box box-1'>
-          1
+          <div className='box-text'>1asdfsdfsdfasdffffffffffffffffffffffffffafsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</div>
         </div>
         <div className='box box-2'>
-          2
+          <div className='box-text'>1asdfsdfsdfasdffffffffffffffffffffffffffdafsssssssssssssssssssssssssssssssssssssssssss</div>
         </div>
         <div className='box box-3'>
-          3
+          <div className='box-text'>1asdfsdfsdfasdfffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
         </div>
         <div className='box box-4'>
-          4
+          <div className='box-text'>1asdfsdfsdfasdfffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
         </div>
         <div className='box box-5'>
-          5
+          <div className='box-text'>1asdfsdfsdfasdfffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
         </div>
         <div className='box box-6'>
-          6
+          <div className='box-text'>1asdfsdfsdfasdfffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
         </div>
         <div className='box box-7'>
-          7
+          <div className='box-text'>1asdfsdfsdfasdfffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
         </div>
         <div className='box box-8'>
-          8
+          <div className='box-text'>1asdfsdfsdfasdfffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
         </div>
         <div className='box box-9'>
-          9
+          <div className='box-text'>1asdfsdfsdfasdfffffffffffffffffffffffffffffffffffffffffffffffffffffffff</div>
         </div>
       </div>
     </div>
