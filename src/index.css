@@ -2,6 +2,10 @@ html {
   font-size: 10px; 
 }
 
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
 /* html, body {
   background-color: black;
 } */

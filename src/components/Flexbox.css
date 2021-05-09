@@ -3,32 +3,42 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  /* background-color: black; */
-  /* min-height: 100vh; */
-  /* width: 50rem; */
+  min-height: 100vh;
   border: solid 1rem black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 .flexbox .box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; 
-  /* font-size: 10rem; */
+  align-items: center;
+  position: relative;
+  flex: 0 0 48%;
+  max-width: 48%;
+  font-size: 5rem;
   padding: 2rem;
   box-sizing: border-box; 
-  width: 100rem;
-  /* margin-top: 2rem;
-  margin-bottom: 2rem; */
+  min-width: 0;
+  word-wrap: break-word;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  min-height: 900px;
 }
 
-/* .flexbox .box:nth-child(odd) {
-  margin-right: 2rem;
-} */
+.flexbox .box-text {
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 0;
+  word-wrap: break-word;
+}
 
-/* .flexbox .text {
-  max-width: 90%;
-} */
+.flexbox .box:nth-child(odd) {
+  margin-right: 2rem;
+}
 
 .flexbox .box-1 {
   background-color: red; 

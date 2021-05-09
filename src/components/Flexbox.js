@@ -6,7 +6,11 @@ const Flexbox = () => {
     <div className='flexbox'>
       <div className='box-container'>
         <div className='box box-1'>
-          <div className='box-text'>1asdfsdfsdfasdffffffffffffffffffffffffffafsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</div>
+          <div className='box-text'>
+              <div>
+                1asdfsdfsdfasdffffffffffffffffffffffffffafsdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+              </div>
+          </div>
         </div>
         <div className='box box-2'>
           <div className='box-text'>1asdfsdfsdfasdffffffffffffffffffffffffffdafsssssssssssssssssssssssssssssssssssssssssss</div>
